@@ -1,0 +1,161 @@
+/**
+ *  Contributors:   Victor Johnson
+ */
+
+/*
+ * It is advised not to edit the smartadmin_production.css
+ * as this will override any changes you make in the 
+ * later versions of this theme. 
+ * 
+ * We advise that you use use this CSS to override 
+ * SmartAdmin styles. 
+ * 
+ * Rename the stylesheet to whatever your liking so it will stay
+ * unique to you with each update of SmartAdmin.
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+#show-shortcut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+}
+
+#TimecardTable {
+    display: flex;
+}
+
+#WeekSelect {
+    margin-bottom: 12px;
+}
+
+.big-space-bottom {
+    margin-bottom: 50px;
+}
+
+.btn-approval-size {
+    width: 100px;
+    font-size: 14pt;
+}
+.btn-payroll-status {
+    width: 125px;
+}
+
+/* approval */
+.btn-edit-save {
+    width: 80px;
+    margin-top: 10px;
+}
+
+.standard-widget {
+    height: 1000px;
+}
+
+.no-top-spacing {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.no-bottom-spacing {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.no-top-bottom-spacing {
+    padding: 0px auto;
+    margin: 0px auto;
+}
+
+.width-100 {
+    width: 100px;
+}
+
+.no-dots {
+    list-style: none;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+}
+
+.is-on-time-icon {
+    font-size: 26px;
+    color: green;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+}
+
+.is-on-time-icon:hover {
+    font-size: 26px;
+    color: #00b700;
+    text-shadow: -1px 0 green, 0 1px green, 1px 0 green, 0 -1px green;
+}
+
+.is-on-time-icon:active {
+    color: darkgreen;
+    text-shadow: -1px 0 darkgreen, 0 1px darkgreen, 1px 0 darkgreen, 0 -1px darkgreen;
+}
+
+.is-not-on-time-icon {
+    font-size: 26px;
+    color: red;
+    text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred;
+}
+
+.is-not-on-time-icon:hover {
+    color: #ff564f;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+.is-not-on-time-icon:active {
+    color: darkred;
+    text-shadow: -1px 0 darkred, 0 1px darkred, 1px 0 darkred, 0 -1px darkred;
+}
+
+.this-week-icon {
+    font-size: 26px;
+    color: orange;
+}
+
+.hidden{
+    display: none;
+}
+
+
+/** default is 200px so made it bigger */
+.tooltip-inner {
+    max-width: 350px;
+}
+
+/** override the stupid top vertical align **/
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
+/** TESTING DIV POSITIONS */
+.red    { background: darkred;    }
+.orange { background: orangered;  }
+.yellow { background: yellow;     }
+.green  { background: darkgreen;  }
+.blue   { background: cadetblue;  }
+.indigo { background: indigo;     }
+.violet { background: darkviolet; }
+.black  { background: black;      }
+
+/** BUTTON COLORS **/
+.info    { color: #57879B; }
+.success { color: #739D73; }
+.warning { color: #C69021; }
+
